@@ -1,4 +1,4 @@
-# Data Flow Diagram (DFD) Visualizer – Vue.js
+# Data Flow Diagram (DFD) Visualizer 
 
 ## 📖 Overview
 A web-based DFD visualizer that parses structured JSON input and renders
