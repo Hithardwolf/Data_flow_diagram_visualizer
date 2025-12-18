@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "chmod +x node_modules/.bin/vite",
+    "prebuild": "node -e \"try { require('fs').chmodSync('node_modules/.bin/vite', '755'); } catch(e) { console.log('chmod not needed or failed:', e.message); }\"",
     "build": "vite build",
     "preview": "vite preview"
   },
